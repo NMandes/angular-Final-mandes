@@ -1,5 +1,6 @@
 <a [routerLink]="['/']">
-	<h1 (click)="offcanvasRight.hide()">My Portfolio</h1>
+<img class="logo" src="https://et710.com/website/war2/img/navbar-logo.jpg"(click)="offcanvasRight.hide()" alt="">
+	<!-- <h1 >My Portfolio</h1> -->
 </a>
 
 <div class="grid-x grid-margin-x">
@@ -50,7 +51,12 @@
 
 		<li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="offcanvasRight.hide()">
 			<a routerLink="/resume" class="button fancy-button">
-				<i class="material-icons">description</i>resume
+				<i class="material-icons">description</i>Resume
+			</a>
+		</li>
+    <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="offcanvasRight.hide()">
+			<a routerLink="/illustrations" class="button fancy-button">
+				<i class="material-icons">description</i>Illustrations
 			</a>
 		</li>
 
