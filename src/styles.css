@@ -120,17 +120,17 @@ button:disabled {
 }
 .fancy-button-main {
   margin: 0px, 0px, 0px, 0px;
-  background-color: whitesmoke;
-  color: rgb(86, 109, 124);
+  background-color:  rgb(86, 109, 124);
+  color: whitesmoke;
   height: 84px;
   /* width: 68px; */
   border-radius: 0px;
 }
 .fancy-button {
   margin: 0px, 0px, 0px, 0px;
-  background-color: whitesmoke;
-  color: #222b31;
-  height: 50px;
+  background-color: #222b31;
+  color: grey;
+  height: 35px;
   /* width: 68px; */
   border-radius: 0px;
 }

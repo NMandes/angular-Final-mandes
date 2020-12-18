@@ -1,5 +1,5 @@
 <a [routerLink]="['/']">
-<img class="logo" src="https://et710.com/website/war2/img/navbar-logo.jpg"(click)="offcanvasRight.hide()" alt="">
+	<img class="logo" src="https://et710.com/website/war2/img/navbar-logo.jpg"(click)="offcanvasRight.hide()" alt="">
 	<!-- <h1 >My Portfolio</h1> -->
 </a>
 
@@ -23,7 +23,7 @@
 
 <div [offcanvas]="isOffcanvas" class="off-canvas position-right" id="offCanvasMenuRight" aria-hidden="true"
 	#offcanvasRight="bs-offcanvas">
-	<h3 class="menu-title">QCC</h3>
+	<!-- <h3 class="menu-title">QCC</h3> -->
 	<ul class="menu vertical">
 		<!-- <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
       <a routerLink="/" class="button fancy-button">
@@ -44,24 +44,24 @@
     </li> -->
 
 		<li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="offcanvasRight.hide()">
-			<a routerLink="/graphic" class="button fancy-button">
-				<i class="material-icons">description</i>Graphic Design
+			<a routerLink="/" class="button fancy-button">
+				Home
 			</a>
 		</li>
 
 		<li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="offcanvasRight.hide()">
 			<a routerLink="/resume" class="button fancy-button">
-				<i class="material-icons">description</i>Resume
+				About Me
 			</a>
 		</li>
-    <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="offcanvasRight.hide()">
+		<li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="offcanvasRight.hide()">
 			<a routerLink="/illustrations" class="button fancy-button">
-				<i class="material-icons">description</i>Illustrations
+				Contact Me
 			</a>
 		</li>
 
 	</ul>
-	<button
+	<!-- <button
     class="close-button"
     aria-label="Close Menu"
     aria-controls="offCanvasMenu"
@@ -69,5 +69,5 @@
     (click)="offcanvasRight.hide()"
   >
     <span aria-hidden="true">×</span>
-  </button>
+  </button> -->
 </div>
