@@ -42,7 +42,8 @@ import { ResumeEducationComponent } from "./resume-education/resume-education.co
 import { ResumeFooterComponent } from "./resume-footer/resume-footer.component";
 import { ResumeProfileComponent } from "./resume-profile/resume-profile.component";
 import { ResumeWorkExperienceComponent } from "./resume-work-experience/resume-work-experience.component";
-import { IllustrationsComponent } from './illustrations/illustrations.component';
+import { IllustrationsComponent } from "./illustrations/illustrations.component";
+import { IndesignComponent } from "./indesign/indesign.component";
 
 @NgModule({
   imports: [
@@ -61,7 +62,7 @@ import { IllustrationsComponent } from './illustrations/illustrations.component'
       { path: "shipping", component: ShippingComponent },
       { path: "graphic", component: GraphicDesignComponent },
       { path: "resume", component: MyResumeComponent },
-      { path: "illustrations", component: IllustrationsComponent }
+      { path: "indesign", component: IndesignComponent }
     ])
   ],
   declarations: [
@@ -80,7 +81,8 @@ import { IllustrationsComponent } from './illustrations/illustrations.component'
     ResumeFooterComponent,
     ResumeProfileComponent,
     ResumeWorkExperienceComponent,
-    IllustrationsComponent
+    IllustrationsComponent,
+    IndesignComponent
   ],
   bootstrap: [AppComponent],
   providers: [CartService]
