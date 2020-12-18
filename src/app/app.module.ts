@@ -44,6 +44,7 @@ import { ResumeProfileComponent } from "./resume-profile/resume-profile.componen
 import { ResumeWorkExperienceComponent } from "./resume-work-experience/resume-work-experience.component";
 import { IllustrationsComponent } from "./illustrations/illustrations.component";
 import { IndesignComponent } from "./indesign/indesign.component";
+import { DigitalartComponent } from './digitalart/digitalart.component';
 
 @NgModule({
   imports: [
@@ -62,7 +63,9 @@ import { IndesignComponent } from "./indesign/indesign.component";
       { path: "shipping", component: ShippingComponent },
       { path: "graphic", component: GraphicDesignComponent },
       { path: "resume", component: MyResumeComponent },
-      { path: "indesign", component: IndesignComponent }
+      { path: "indesign", component: IndesignComponent },
+      { path: "digitalart", component: DigitalartComponent }
+
     ])
   ],
   declarations: [
@@ -82,7 +85,8 @@ import { IndesignComponent } from "./indesign/indesign.component";
     ResumeProfileComponent,
     ResumeWorkExperienceComponent,
     IllustrationsComponent,
-    IndesignComponent
+    IndesignComponent,
+    DigitalartComponent
   ],
   bootstrap: [AppComponent],
   providers: [CartService]
